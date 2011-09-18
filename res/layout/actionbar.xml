@@ -3,7 +3,7 @@
 	android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height"
 	android:layout_marginBottom="2dip">
 	<ImageView android:id="@+id/actionbar_home_logo"
-		android:layout_alignParentLeft="true" android:layout_width="wrap_content"
+		android:layout_alignParentLeft="true" android:layout_width="@dimen/components_height"
 		android:layout_height="@dimen/components_height" android:background="@drawable/actionbar_btn"
 		android:padding="0dip" />
 	<LinearLayout android:id="@+id/actionbar_actionIcons"
